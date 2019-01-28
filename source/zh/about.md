@@ -1,5 +1,6 @@
 title: about
 layout: about
+lang: zh
 ---
 这是一部被封的漫画
 在有妖气上连载

@@ -16,7 +16,9 @@ var pages = lang.reduce(function(result1,lang){
                 imgs:o.pages,
                 title:o.path,
                 prev:o.prev,
-                next:o.next
+                next:o.next,
+                lang:lang,
+                layout:"page"
             }
         }
     
@@ -48,22 +50,6 @@ hexo.extend.generator.register('index_zh',function(locals) {
                 }
             }
 })
-
-// hexo.extend.generator.register('about',function(locals) {
-//     var pages = lang.reduce(function(result1,lang){
-//         var base = lang.toString() + '/';
-//             var data = {
-//                 path: base+"about/",
-//                 layout: ['about'],
-//                 data: {
-//                 }
-//             }
-//           return result1.concat(data);
-//         },[]);
-    
-//         return pages;
-   
-// })
 
 hexo.extend.helper.register('url_for_lang', function(path) {
     var lang = this.page.lang;

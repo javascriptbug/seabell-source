@@ -1,5 +1,6 @@
 title: about
 layout: about
+lang: en
 ---
 This is a sealed-up chinese comic.
 
