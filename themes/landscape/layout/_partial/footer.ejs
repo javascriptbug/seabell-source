@@ -1,0 +1,20 @@
+<footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      <a href="<%=url_for_lang('about.html')%>">
+        <%= __('about') %>
+      </a>
+      <% if (page.layout=="about"&&page.lang=="en"){ %>
+        <a href="<%=url_for_lang('zh')%>">
+        中
+        </a>
+      <% } %>
+      <br>
+      <%= __('powered_by') %> <a href="http://hexo.io/" target="_blank">Hexo</a>&nbsp<a href="https://bulma.io" target="_blank">Bulma</a> 
+ 
+      <!-- <a href="https://bulma.io">
+        <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="88">
+      </a> -->
+    </div>
+  </div>
+</footer>

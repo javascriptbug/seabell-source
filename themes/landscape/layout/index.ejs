@@ -1,0 +1,19 @@
+<section class="columns">
+    <div class="column is-four-fifths">
+        <div class="box mb-2 mt-2">
+            <div class="columns is-multiline">
+                    <% page.cate.forEach(function(o){ %>
+                        <div class="column is-one-quarter  has-text-left"><p class="title is-5"><a class="cata" href="<%- url_for_lang(o.path)%>"><%= __(o.path) %></a></p></div>
+                      <% }) %>
+            </div>
+        </div>
+    </div>
+</section>
+
+<figure class="" style="position:fixed;top:30px;right:5px;">
+        <%- image_tag("images/leg01.png",{alt:"上官海铃的焦虑 全身特写"})%>
+    </figure>
+    <figure class="" style="position:fixed;top:0px;left:0px;width: 400px;">
+        <%- image_tag("images/leg02.png",{alt:"上官海铃的焦虑 全身特写"})%>
+    </figure>
+    <div style="clear:both;"></div>
