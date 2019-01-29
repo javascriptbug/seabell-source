@@ -9,7 +9,7 @@ hexo s
 ## links
 [comics book with zh/en](https://github.com/javascriptbug/seabell-comics)
 
-[showTime](https://github.com/javascriptbug/seabell)
+[showTime](http://lloii.com/)
 
 
 ------
@@ -24,7 +24,7 @@ hexo s
 ## 链接
 [中英版漫画地址](https://github.com/javascriptbug/seabell-comics)
 
-[观看地址](https://github.com/javascriptbug/seabell)
+[观看地址](http://lloii.com/)
 
 
 ------
